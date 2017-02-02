@@ -13,7 +13,7 @@ $(document).ready(function(){
             $("#weather-results").append("The temperature is  ")
             $("#weather-results").append(response.current.temp_f)
             $("#weather-results").append("The humidity is  ")
-            $("#weather-results").append(response.current.humidity)
+            $("#weather-results").append(response.current.humid)
         });
 
     });
